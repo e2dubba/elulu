@@ -7,7 +7,7 @@ This package shows how to create a simple Chrome Extension to Automate work flow
 
 ## Getting Started
 
-I would suggest using (Atom)[https://atom.io/] as the Text editor. I would also recommend installing (emmet)[https://atom.io/], (ide-typescript)[https://atom.io/packages/ide-typescript], and I like [vim-mode-plus](https://atom.io/packages/vim-mode-plus) which is a very excellent implementation for vi-navigation in Atom.
+I would suggest using [Atom](https://atom.io/) as the Text editor. I would also recommend installing [emmet](https://atom.io/), [ide-typescript](https://atom.io/packages/ide-typescript), and I like [vim-mode-plus](https://atom.io/packages/vim-mode-plus) which is a very excellent implementation for vi-navigation in Atom.
 
 
 ### Downloading the Files
@@ -69,7 +69,7 @@ Does it work to access the clipboard, if you do not type anything in to the text
 
 ## Projects To Work on
 
-[ ] Create a button that will change the page to the dbpedia.org page, if the current page is a wikipedia page.
-[ ] Add a keyboard shortcut function that will open up a new tab with search results based on what was in the clipboard.
-[ ] Create a help page with a button that links to it from the popup.html
-[ ] Edit the style and html of the popup.html
+- [ ] Create a button that will change the page to the dbpedia.org page, if the current page is a wikipedia page.
+- [ ] Add a keyboard shortcut function that will open up a new tab with search results based on what was in the clipboard.
+- [ ] Create a help page with a button that links to it from the popup.html
+- [ ] Edit the style and html of the popup.html

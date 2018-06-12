@@ -27,6 +27,28 @@ function openGoogleTranslate () {
 };
 
 
+// For getting the URL
+function urlpromise() {
+  var currenturl;
+  return new Promise(function(resolve, reject) {
+    //chrome.tabs.query is a callback function to interact with the BOM
+    var node = chrome.tabs.query({
+      active: true,
+      currentWindow: true
+    }, function(arrayOfTabs) {
+      var activeTab = arrayOfTabs[0];
+      currenturl = activeTab.url;
+      // after the callback function has ran, lets finish the promise
+      if (currenturl) {
+        resolve(currenturl);
+      } else {
+        reject(node);
+      }
+    });
+  });
+}
+
+
 function openNodeTab () {
   let clipboardContent = getContentFromClipboard();
   clipboardContent = clipboardContent.trim();

@@ -28,7 +28,7 @@ A Chrome extension must have a few components. The following sections out line t
 
 ### The Manifest.json
 
-This json file gives Chrome the needed information on where to find the necessary files, and what permissions the browser will allow the extension to access. (See the Chrome Documentation)[https://developer.chrome.com/extensions/manifest]
+This json file gives Chrome the needed information on where to find the necessary files, and what permissions the browser will allow the extension to access. [See the Chrome Documentation](https://developer.chrome.com/extensions/manifest)
 
 * `browser_action`: This provides links to both the icon that will display in the browser window as well as the html file that the page will load
 * `icons`: These are the Icons that are on the `chrome://extensions` page, as well as on the extensions web store.  
@@ -44,7 +44,7 @@ This page also sources the two javascript files the extension relies on.
 
 ### The Popup.js
 
-Chrome only gives the popup access to certain parts of the browser. For many of the actions that a Chrome Extension would want, it is necessary to pass things between the background.html page and the popup. Chrome has built message handling functions for handling this messaging ((see the official chrome documentation)[https://developer.chrome.com/extensions/messaging]).
+Chrome only gives the popup access to certain parts of the browser. For many of the actions that a Chrome Extension would want, it is necessary to pass things between the background.html page and the popup. Chrome has built message handling functions for handling this messaging ([see the official chrome documentation](https://developer.chrome.com/extensions/messaging)).
 Chrome has additional Browser Object Model (BOM) functions that can also be found on the developer documentation.
 
 ### The Style Directory

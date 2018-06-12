@@ -17,33 +17,32 @@
       "page": "pages/background.html",
       "persistant": false
   },
-       "commands": {
-          "openGoogleTranslate": {
-            "suggested_key": {
-              "default": "Ctrl+Shift+Y",
-              "linux": "Ctrl+Shift+Y",
-              "mac": "MacCtrl+Shift+Y"
-            },
-            "description": "Open Clipboard Contents in Google Translate"
+  "commands": {
+    "openGoogleTranslate": {
+        "suggested_key": {
+          "default": "Ctrl+Shift+Y",
+          "linux": "Ctrl+Shift+Y",
+          "mac": "MacCtrl+Shift+Y"
           },
-          "openNodeTab": {
-              "sugested_key": {
-                  "default": "Ctrl+Shift+N",
-                  "linux": "Ctrl+Shift+N",
-                  "mac": "MacCtrl+Shift+N"
-              },
-              "description": "Open Clipboard Contents in Set URL"
+          "description": "Open Clipboard Contents in Google Translate"
+      },
+      "openNodeTab": {
+          "sugested_key": {
+              "default": "Ctrl+Shift+N",
+              "linux": "Ctrl+Shift+N",
+              "mac": "MacCtrl+Shift+N"
           },
-          "_execute_browser_action": {
-            "suggested_key": {
-              "default": "Ctrl+Shift+Y",
-              "mac": "MacCtrl+Shift+U",
-              "chromeos": "Ctrl+Shift+U",
-              "linux": "Ctrl+Shift+U"
-            }
-          }
+          "description": "Open Clipboard Contents in Set URL"
         },
-
+        "_execute_browser_action": {
+        "suggested_key": {
+          "default": "Ctrl+Shift+Y",
+          "mac": "MacCtrl+Shift+U",
+          "chromeos": "Ctrl+Shift+U",
+          "linux": "Ctrl+Shift+U"
+          }
+        }
+  },
   "permissions": [
     "clipboardWrite",
     "clipboardRead",

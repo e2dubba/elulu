@@ -71,7 +71,7 @@ Here you can (re)assign keyboard shortcuts that were called out in the `manifest
 
 ## Projects To Work on
 
-- [ ] Create a button that will change the page to the dbpedia.org page, if the current page is a wikipedia page. http://dbpedia.org/page/Karl_Barth for https://en.wikipedia.org/wiki/Karl_Barth.
+- [ ] Create a button that will change the page to the dbpedia.org page, if the current page is a wikipedia page. http://dbpedia.org/page/Karl_Barth for https://en.wikipedia.org/wiki/Karl_Barth. And maybe even https://de.wikipedia.org/wiki/Karl_Barth.
 - [ ] Add a keyboard shortcut function that will open up a new tab with search results in Wikipedia, duckduckgo, or worldcat.org based on what was in the clipboard.
 - [ ] Create a help page with a button that links to it from the popup.html
 - [ ] Edit the style and html of the popup.html
